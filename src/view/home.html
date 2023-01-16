@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>LED Controller</title>
+    <link rel='stylesheet' href='css/styles.css'>
+  </head>
+  <body>
+		<div id="container">
+			<div id="inner_container">
+				<div id="titles">
+					<h2 id="title">
+            Color: NULL
+          </h2>
+				</div>
+				<div>
+					<a href="#">
+            <div id="red_btn" class="color_button" >
+              RED
+            </div>
+          </a>
+					<a href="#">
+            <div id="yellow_btn" class="color_button" >
+              YELLOW
+            </div>
+          </a>
+					<a href="#">
+            <div id="green_btn" class="color_button" >
+              GREEN
+            </div>
+          </a>
+				</div>
+			</div>
+		</div>
+    <script>
+      const path = require('path');
+      require(path.join(__dirname, '..', 'controller', 'viewscript', 'home.js'));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+#container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#inner_container {
+	text-align: center;
+}
+
+#title {
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+}
+
+#red_btn {
+	background-color: #FF0000;
+}
+
+#yellow_btn {
+	background-color: #FFCC00;
+}
+
+#green_btn {
+	background-color: #00CC00;
+}
+
+#red_btn:hover {
+	background-color: #DDDDDD;
+}
+
+#yellow_btn:hover {
+	background-color: #DDDDDD;
+}
+
+#green_btn:hover {
+	background-color: #DDDDDD;
+}
+
+.color_button {
+	color: #FFFFFF;
+	width: 80px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	border: 1px solid #EEEEEE;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.color_button:hover {
+    color: #000000;
+}
